@@ -4,7 +4,7 @@ pipeline{
            stage('Git Checkout Stage'){
                steps{
 		 echo 'Checkingout git for the code'
-                 git 'https://github.com/prabhatraghav/star-agile-health-care.git'
+                 git 'https://github.com/prabhatraghav/addressbook.git'
 		 echo 'Done: Checkingout the code'
                  }
            }
